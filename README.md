@@ -6,8 +6,11 @@ Here is the dataset: https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real
 ## This is architecture of this project
 ![RealestateArchitecture](https://github.com/user-attachments/assets/f2a8a894-22f1-492f-83c2-897207544b52)
 
-so i use pandas library for data manipulation and Apache-airflow to make a data pipline:
+The project aims to perform the following tasks:
 
-First step : i extract the data from the kaggle that i provided the link.
-Second step : i transform Broker_by column from Number (Because it is encoded) to a Broker ID (I just want to make this column more understandable)
-Third Step : i Transofo
+1. Data Extraction: Extract data using python.
+2. Data Transformation : i trasform the data and decoding data into the easy reading form.
+3. Data Loading: Load transformed data into Google BigQuery tables.
+4. Orchestration: Automate complete Data pipeline using Airflow ( Cloud Composer )
+5. Do Data Analysis in Google Looker Studio
+
